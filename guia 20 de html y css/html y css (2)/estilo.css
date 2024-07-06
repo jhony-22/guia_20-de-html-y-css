@@ -1,0 +1,82 @@
+*{
+    margin: 2px;
+    padding: 1px;
+}
+body{
+    background-color: white;
+}
+header{
+    text-align: center;
+}
+.con{
+    margin: 10px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 23px;   
+}
+.titulo h1{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: auto;   
+}
+.opciones {
+  background-color: pink;
+  color: white;
+  width: 150px;
+
+}
+.cont{
+    background-color: red;
+    border: 4px solid white;
+}
+.datos{
+    color: red;
+    text-align: center;
+}
+
+.DatosU {
+    border: 8px solid pink;
+    text-align: left;
+}
+.DatosU h3{
+    color: red;
+}
+.DatosU input {
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.DatosU button{
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.pro {
+    background-color: red;
+    color: red;
+    width: 160px;
+    text-align: right;
+}
+.pro h3{
+    font-weight: normal;
+}
+.conte{
+    background-color: pink;
+    border: 4px solid white;
+}
+#fin{
+    text-align: center;
+    font-weight: normal;
+    color: red;
+    background: linear-gradient(to right, red 10%, pink 90%);
+}
